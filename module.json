@@ -1,6 +1,6 @@
 {
-  "name": "bellows",
-  "title": "Bellows",
+  "name": "bellows_fork",
+  "title": "BellowsFork",
   "description": "A fork of temportalflux's MusicAssist - a streaming helper for Foundry VTT. Every forge needs bellows!",
   "authors": [
     {
