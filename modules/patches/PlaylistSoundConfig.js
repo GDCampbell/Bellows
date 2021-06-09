@@ -27,7 +27,7 @@ overrideFunc(PlaylistSoundConfig.prototype, '_updateObject', function(super_upda
 
 	if (this.object._id)
 	{
-		formData["_id"] = this.object._id;
+		formData["id"] = this.object._id;
 		this.playlist.updateEmbeddedEntity("PlaylistSound", formData, {});
 	}
 	else this.playlist.createEmbeddedEntity("PlaylistSound", formData, {});
